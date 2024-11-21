@@ -124,7 +124,7 @@ const Home = () => {
     const [message, setMessage] = useState("");
     const [status, setStatus] = useState("");
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setStatus("Enviando...");
 
@@ -276,7 +276,6 @@ const Home = () => {
                         placeholder="Motivo do contato. Ex: Gostei muito do produto X, poderia me enviar um orçamento?"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
-                        rows="4"
                         required
                     />
                     <button type="submit">Enviar</button>
