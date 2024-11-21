@@ -133,7 +133,7 @@ const Home = () => {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    Authorization: "Bearer SEU_TOKEN_FIXO",
+                    Authorization: "Bearer projetoweb",
                 },
                 body: JSON.stringify({
                     toMail: email,
