@@ -1,0 +1,63 @@
+#section-5 {
+    background: var(--secondary-color);
+    padding: var(--py-xl) var(--px-lg);
+    text-align: center;
+}
+
+#section-5 h2 {
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-bold);
+    color: var(--text-color);
+    margin-bottom: var(--py-base);
+}
+
+#section-5 p {
+    font-size: var(--fs-base);
+    color: var(--second-text-color);
+    margin-bottom: var(--py-lg);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-5 form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--py-sm);
+}
+
+#section-5 input[type="email"],
+#section-5 textarea {
+    width: 100%;
+    padding: var(--py-sm);
+    font-size: var(--fs-base);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    outline: none;
+    transition: border 0.3s;
+}
+
+#section-5 input[type="email"]:focus,
+#section-5 textarea:focus {
+    border: 1px solid var(--primary-color);
+}
+
+#section-5 button {
+    padding: 0.5em 2em;
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+    color: #fff;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#section-5 button:hover {
+    background: var(--second-text-color);
+}

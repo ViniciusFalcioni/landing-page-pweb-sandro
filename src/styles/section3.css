@@ -1,0 +1,105 @@
+#section-3 {
+    background: var(--primary-color);
+    border-top: 0.125rem solid #e4e4e4;
+    padding: var(--py-lg) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#section-3 .content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 var(--px-lg);
+}
+
+#section-3 .slick-dots li button:before {
+    color: var(--secondary-color);
+    font-size: 12px;
+}
+
+#section-3 .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--py-base);
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: var(--py-xl);
+}
+
+#section-3 .card {
+    background: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: var(--py-base);
+    width: 100% !important;
+    height: 30em;
+    text-align: center;
+    margin-bottom: var(--py-base);
+}
+
+#section-3 .card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: var(--py-sm);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-3 .card-title {
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+    margin-bottom: var(--py-sm);
+}
+
+#section-3 .card-description {
+    font-size: var(--fs-base);
+    color: var(--second-text-color);
+    font-weight: var(--fw-md);
+}
+
+#section-3 .rating {
+    color: var(--primary-color);
+    margin-top: var(--py-sm);
+}
+
+#section-3 h3 {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    color: var(--light-gray);
+    margin-bottom: var(--py-base);
+}
+
+#section-3 p {
+    color: var(--second-text-color);
+    width: 80%;
+    margin: 0 auto var(--py-lg);
+    font-size: var(--fs-base);
+}
+
+@media (min-width: 1280px) {
+    #section-3 {
+        padding: var(--py-xl) 0;
+    }
+
+    #section-3 .cards-container {
+        justify-content: space-between;
+    }
+
+    #section-3 .card {
+        width: 30em !important;
+    }
+
+    #section-3 h3 {
+        font-size: var(--fs-2xl);
+    }
+
+    #section-3 p {
+        width: 75%;
+    }
+}

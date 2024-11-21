@@ -1,0 +1,100 @@
+#section-4 {
+    background: var(--light-gray);
+    padding: var(--py-xl) 0;
+    text-align: center;
+}
+
+#section-4 h2 {
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-bold);
+    color: var(--text-color);
+    margin-bottom: var(--py-lg);
+}
+
+#section-4 p {
+    font-size: var(--fs-base);
+    color: var(--second-text-color);
+    margin-bottom: var(--py-lg);
+}
+
+#section-4 .plans-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--px-lg);
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#section-4 .plan-card {
+    background: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: var(--py-lg) var(--px-lg);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+#section-4 .plan-card.featured {
+    border: 2px solid var(--primary-color);
+    transform: scale(1.05);
+}
+
+#section-4 .plan-header {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+    color: var(--text-color);
+    margin-bottom: var(--py-base);
+}
+
+#section-4 .plan-price {
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+    color: var(--primary-color);
+    margin-bottom: var(--py-base);
+}
+
+#section-4 .plan-description {
+    font-size: var(--fs-sm);
+    color: var(--second-text-color);
+    margin-bottom: var(--py-lg);
+}
+
+#section-4 .plan-button {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 5px;
+    font-size: var(--fs-base);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#section-4 .plan-button:hover {
+    background: var(--second-text-color);
+}
+
+#section-4 .plan-features {
+    text-align: left;
+    margin-top: var(--py-lg);
+}
+
+#section-4 .plan-features li {
+    font-size: var(--fs-sm);
+    color: var(--second-text-color);
+    margin-bottom: var(--py-sm);
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#section-4 .plan-features li::before {
+    content: "✔";
+    color: var(--primary-color);
+    margin-right: var(--px-sm);
+    font-weight: var(--fw-bold);
+}

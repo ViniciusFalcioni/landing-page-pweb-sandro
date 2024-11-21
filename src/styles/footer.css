@@ -1,0 +1,74 @@
+#footer {
+    background: var(--primary-color);
+    padding: var(--py-lg) var(--px-lg);
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+}
+
+#footer .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    gap: var(--py-base);
+}
+
+#footer .footer-column {
+    flex: 1 1 200px;
+    margin-bottom: var(--py-base);
+}
+
+#footer .footer-column h4 {
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+    color: var(--secondary-color);
+    margin-bottom: var(--py-sm);
+}
+
+#footer .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-column ul li {
+    margin-bottom: var(--py-sm);
+}
+
+#footer .footer-column ul li a {
+    color: var(--second-text-color);
+    text-decoration: none;
+    font-size: var(--fs-sm);
+    transition: color 0.3s;
+}
+
+#footer .footer-column ul li a:hover {
+    color: var(--secondary-color);
+}
+
+#footer .footer-socials {
+    display: flex;
+    gap: 1.5em;
+    margin-top: var(--py-base);
+}
+
+#footer .footer-socials a {
+    font-size: var(--fs-lg);
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#footer .footer-socials a:hover {
+    color: var(--primary-hover-color);
+}
+
+#footer .footer-bottom {
+    margin-top: var(--py-lg);
+    font-size: var(--fs-sm);
+    color: var(--second-text-color);
+    text-align: center;
+}
